@@ -21,6 +21,7 @@ public class HealthService {
         }
         catch(Exception e){
             System.out.println("MySql Health checked failed" + e.getMessage());
+            System.out.println("hello");
         }
         return databaseStatus;
     }
