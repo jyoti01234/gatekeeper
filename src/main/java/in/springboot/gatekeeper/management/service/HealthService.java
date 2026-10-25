@@ -21,7 +21,7 @@ public class HealthService {
         }
         catch(Exception e){
             System.out.println("MySql Health checked failed" + e.getMessage());
-             System.out.println("admin added");
+             System.out.println("food delivery app added");
         }
         return databaseStatus;
     }
